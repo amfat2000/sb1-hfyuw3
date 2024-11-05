@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-button {
+  background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+  color: white;
+  font-size: 18;
+  padding: 12;
+  border-radius: 8;
+  margin: 8;
+}
+
+.gradient-header {
+  background: linear-gradient(135deg, #1976D2 0%, #64B5F6 100%);
+  color: white;
+  font-size: 24;
+  font-weight: bold;
+  padding: 16;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10;
+  margin: 16;
+  padding: 16;
+  elevation: 4;
+}
